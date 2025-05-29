@@ -1,0 +1,89 @@
+/* Estilos generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  /* Encabezado */
+  header {
+    background-color: #ffb6b9;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+  }
+  
+  .perfil {
+    margin-top: 1rem;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 4px solid white;
+    object-fit: cover;
+  }
+  
+  /* Secciones */
+  section {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem 2rem;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: #ff6f61;
+    margin-top: 0;
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  .animada {
+    animation: fadeIn 1s ease-in;
+  }
+  
+  /* Imágenes dentro de secciones */
+  .familia-foto {
+    display: block;
+    max-width: 50%;
+    height: auto;
+    border-radius: 10px;
+    margin: 1.5rem auto;
+  }
+  
+  /* Pie de página */
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #ffb6b9;
+    color: white;
+    margin-top: 3rem;
+  }
+  
+  /* Animación suave */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+  
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
